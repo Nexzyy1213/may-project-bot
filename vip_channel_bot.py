@@ -3,14 +3,12 @@ import logging
 import re
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler
-from flask import Flask
-from threading import Thread
 
 # Konfigurasi logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Token Bot Telegram
-BOT_TOKEN = "ISI_DENGAN_BOT_TOKEN"
+BOT_TOKEN = "7036261774:AAEQdIKvkfh4hKgSAoWrRKN57cEMDSP7yGo"
 
 # ID Channel VIP & Admin
 VIP_CHANNEL_ID = -1002592876178
